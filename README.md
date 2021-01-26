@@ -13,3 +13,5 @@ Aykırı Değer ( Outlier) : Aykırılığı ifade eden numerik değere "aykır�
   - Boxplot 
 
 Biz burada Boxplot yöntemini kullandık.Boxplot yöntemi en sık kullanılan yöntemlerden birisidir.Ben Boxplot'u Seaborn Veri Görselleştirme kütüphanesi içerisinden import ettim.
+Boxplot metodu, değişkenlerin değerlerini küçükten büyüğe doğru sıralar.Yüzdeliklerine , Q1 ve Q3 değerleri kullanarak alt ve üst eşik değerleri hesaplanır.
+
