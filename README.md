@@ -12,7 +12,7 @@ Aykırı Değer ( Outlier) : Aykırılığı ifade eden numerik değere "aykır�
   - Z-Skoru Yaklaşımı 
   - Boxplot 
 
-Biz burada Boxplot yöntemini kullandık.Boxplot yöntemi en sık kullanılan yöntemlerden birisidir.Ben Boxplot'u Seaborn Veri Görselleştirme kütüphanesi içerisinden import ettim.
+Biz burada Boxplot yöntemini kullandık.Boxplot yöntemi en sık kullanılan yöntemlerden birisidir.Boxplot'u Seaborn Veri Görselleştirme kütüphanesi içerisinden import ediyoruz.
 Boxplot metodu, değişkenlerin değerlerini küçükten büyüğe doğru sıralar.Yüzdeliklerine , Q1 ve Q3 değerleri kullanarak alt ve üst eşik değerleri hesaplanır.
 
  - IQR = 1.5 * (Q3 - Q1)
