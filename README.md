@@ -15,3 +15,11 @@ Aykırı Değer ( Outlier) : Aykırılığı ifade eden numerik değere "aykır�
 Biz burada Boxplot yöntemini kullandık.Boxplot yöntemi en sık kullanılan yöntemlerden birisidir.Ben Boxplot'u Seaborn Veri Görselleştirme kütüphanesi içerisinden import ettim.
 Boxplot metodu, değişkenlerin değerlerini küçükten büyüğe doğru sıralar.Yüzdeliklerine , Q1 ve Q3 değerleri kullanarak alt ve üst eşik değerleri hesaplanır.
 
+ - IQR = 1.5 * (Q3 - Q1)
+
+ - Alt Eşik Değeri = Q1 - IQR 
+ 
+ - Üst Eşik Değeri = Q3 + IQR 
+ 
+ Değişkenimizin değerleri, Alt Eşik Değeri'nin altında kalan ve Üst Eşik Değerinin de üstünde olan edğerlerimiz bizim " Aykırı Değerlerimiz " oluyor. 
+
