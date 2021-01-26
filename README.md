@@ -22,4 +22,10 @@ Boxplot metodu, değişkenlerin değerlerini küçükten büyüğe doğru sıral
  - Üst Eşik Değeri = Q3 + IQR 
  
  Değişkenimizin değerlerinden, Alt Eşik Değeri'nin altında kalan ve Üst Eşik Değerinin de üstünde olan değerlerimiz bizim " Aykırı Değerlerimiz " oluyor. 
+ 
+ Aykırı Değer Problemini çözmek için 3 yöntemimiz vardır
+ 
+   - Aykırı Değerleri Silme
+   - Aykırı Değerleri bulunduğu değişkenin ortalaması ile doldurma
+   - Aykırı Değerleri Alt Eşik değeri veya Üst Eşik Değeri ile doldurma
 
